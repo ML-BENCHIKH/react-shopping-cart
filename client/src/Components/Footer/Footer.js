@@ -1,9 +1,6 @@
-import React from 'react'
-import "../../css/Footer/Footer.css"
+import React from "react";
+import "../../css/Footer/Footer.css";
+import { words } from "../../words";
 export default function Footer() {
-    return (
-        <footer>
-            &copy; CopyRights BENCHIKH Mohamed lamine 2022
-        </footer>
-    )
+  return <footer>{words.footerTitle}</footer>;
 }
