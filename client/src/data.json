@@ -3,32 +3,32 @@
     "id": "id1",
     "title": "Product 1",
     "imageUrl": "/images/product1.jpeg",
-    "desc": "Description product 1",
+    "desc": "This is Product 1",
     "price": 30,
-    "sizes": ["S", "M", "L"]
+    "sizes": ["S", "M"]
   },
   {
     "id": "id2",
     "title": "Product 2",
     "imageUrl": "/images/product2.jpeg",
-    "desc": "Description product 2",
+    "desc": "This is Product 2",
     "price": 40,
-    "sizes": ["S", "M", "L", "XL"]
+    "sizes": ["XL", "L"]
   },
   {
     "id": "id3",
     "title": "Product 3",
     "imageUrl": "/images/product3.jpg",
-    "desc": "Description product 3",
-    "price": 50,
-    "sizes": ["S", "M", "L", "XL", "XXL"]
+    "desc": "This is Product 3",
+    "price": 300,
+    "sizes": ["S", "M", "L"]
   },
   {
     "id": "id4",
     "title": "Product 4",
     "imageUrl": "/images/product4.png",
-    "desc": "Description product 4",
-    "price": 60,
-    "sizes": ["S", "M", "L", "XL"]
+    "desc": "This is Product 4",
+    "price": 40,
+    "sizes": ["S", "M"]
   }
 ]
