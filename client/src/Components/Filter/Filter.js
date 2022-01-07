@@ -7,20 +7,27 @@ function Filter(props) {
       <div className="num-of-products"> Number of products 4 </div>
       <div className="filter-by-size">
         <span> Filter </span>
-        <select className="filter-select">
-          <option value="ALL"> ALL </option>
-          <option value="XS"> XS </option>
-          <option value="S"> S </option>
-          <option value="M"> M </option>
-          <option value="L"> L </option>
-          <option value="XL"> ALL </option>
-          <option value="XXL"> XXL </option>
-          <option value="3XL"> 3XL </option>
+        <select
+          value={props.size}
+          className="filter-select"
+          onChange={props.handleFilterbySize}
+        >
+          <option value="ALL">ALL</option>
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+          <option value="XXL">XXL</option>
         </select>
       </div>
       <div className="filter-by-order">
         <span> Order </span>
-        <select className="filter-select">
+        <select
+          value={props.sort}
+          className="filter-select"
+          onChange={props.handleFilterbyOrder}
+        >
           <option value="Latest"> Latest </option>
           <option value="Lowest"> Lowest </option>
           <option value="Heighest"> Heighest </option>
